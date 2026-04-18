@@ -1,24 +1,17 @@
 # Markdown README Cheat Sheet
+
 ![Markdown](https://img.shields.io/badge/markdown-reference-blue)
 ![Templates](https://img.shields.io/badge/templates-ready--to--use-green)
 ![Status](https://img.shields.io/badge/status-active-success)
 
-A practical, copy-paste-focused guide to writing clean and useful README.md files.
-## Quick Start
-
-- Templates → templates.md
-
-- Markdown basics → README sections below
-
+A copy-paste reference for writing GitHub Markdown README files.
 
 ---
 
-## Contents
+## Quick Start
 
-- Basics
-- Code Blocks
-- Templates
-- Advanced Tricks
+- Templates → templates.md
+- Use sections below as needed
 
 ---
 
@@ -63,18 +56,6 @@ A practical, copy-paste-focused guide to writing clean and useful README.md file
 
 ## Code Blocks
 
-```md
-```bash
-npm install
-```
-
-```js
-console.log("Hello world");
-```
-```
-
-Example:
-
 ```bash
 npm install
 ```
@@ -85,10 +66,9 @@ console.log("Hello world");
 
 ---
 
-## README Template (Copy & Paste)
+## README Templates
 
 ### Minimal
-
 ```md
 # Project Name
 
@@ -96,10 +76,10 @@ console.log("Hello world");
 Short description.
 
 ## Installation
-Steps here.
+npm install
 
 ## Usage
-Example.
+Example
 
 ## License
 MIT
@@ -108,12 +88,11 @@ MIT
 ---
 
 ### Standard Project
-
 ```md
 # Project Name
 
 ## Description
-Explain what the project does.
+What this project does.
 
 ## Features
 - Fast
@@ -121,20 +100,12 @@ Explain what the project does.
 - Lightweight
 
 ## Installation
-```bash
-npm install your-package
-```
+git clone <repo>
+cd project
+npm install
 
 ## Usage
-```js
-import x from "your-package";
-```
-
-## Configuration
-Explain options.
-
-## Contributing
-Guidelines.
+npm start
 
 ## License
 MIT
@@ -142,10 +113,9 @@ MIT
 
 ---
 
-## Advanced Tricks
+## Advanced
 
 ### Collapsible Section
-
 ```md
 <details>
 <summary>Click to expand</summary>
@@ -155,39 +125,20 @@ Hidden content here.
 </details>
 ```
 
-Example:
-
-<details>
-<summary>Click to expand</summary>
-
-Hidden content here.
-
-</details>
-
----
-
-### Tables
-
+### Table
 ```md
 | Name | Age |
 |------|-----|
 | John | 25  |
-| Anna | 30  |
 ```
 
----
-
 ### Badges
-
 ```md
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Version](https://img.shields.io/badge/version-1.0.0-green)
 ```
 
----
-
-### Task Lists
-
+### Task List
 ```md
 - [x] Done
 - [ ] Not done
