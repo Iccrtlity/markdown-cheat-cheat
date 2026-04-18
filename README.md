@@ -1,4 +1,8 @@
 # Markdown README Cheat Sheet
+## Quick Start
+
+Use ready templates here:
+👉 templates.md
 
 A practical, copy-paste-focused guide to writing clean and useful README.md files.
 
