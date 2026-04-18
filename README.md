@@ -6,8 +6,9 @@
 A practical, copy-paste-focused guide to writing clean and useful README.md files.
 ## Quick Start
 
-Use ready templates here:
-👉 templates.md
+- Templates → templates.md
+
+- Markdown basics → README sections below
 
 
 ---
