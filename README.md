@@ -2,6 +2,7 @@
 ![Markdown](https://img.shields.io/badge/markdown-reference-blue)
 ![Templates](https://img.shields.io/badge/templates-ready--to--use-green)
 ![Status](https://img.shields.io/badge/status-active-success)
+
 A practical, copy-paste-focused guide to writing clean and useful README.md files.
 ## Quick Start
 
